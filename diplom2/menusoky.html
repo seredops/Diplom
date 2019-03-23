@@ -5,6 +5,7 @@
     <title>Меню с боку</title>
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
 <input type="checkbox" id="nav-toggle" hidden>
@@ -12,12 +13,12 @@
 <label for="nav-toggle" class="nav-toggle" onclick></label>
 <div class="logo"></div>
 <ul>
-    <li><a href="#"><i class="fa fa-bookmark"></i>Натяжные потолки</a>
+    <li><a href="#item-1"><i class="fa fa-bookmark"></i>Натяжные потолки</a>
     </li>
-    <li><a href="#"><i class="fa fa-phone-volume"></i>Как заказать</a>
+    <li><a href="kak_zakazat.html"><i class="fa fa-phone-volume"></i>Как заказать</a>
     </li>
-    <li><a href="#"><i class="fa fa-home"></i>Главная</a></li>
-    <li><a href="#"><i class="fa fa-address-card"></i>Контакты</a></li>
+    <li><a href="menusoky.html"><i class="fa fa-home"></i>Главная</a></li>
+    <li><a href="contact.html"><i class="fa fa-address-card"></i>Контакты</a></li>
     <li><a href="#"><i class="fa fa-question"></i>Вопрос Ответ</a></li>
 </ul>
 </nav>
@@ -26,36 +27,47 @@
     <div class="text">
         <h2>Какие натяжные потолки мы делаем</h2>
     </div>
-    <nav class="dws-menu">
-    <ul>
-        <li><a href="#">световые линии</a></li>
-        <li><a href="#">Парящий потолок</a></li>
-        <li><a href="#">Многоуровневые</a></li>
-        <li><a href="#">Перфорированые</a></li>
-        <li><a href="#">Комбинированные</a></li>
-        <li><a href="#">Художественные</a></li>
-        <li><a href="#">Световые</a></li>
-        <li><a href="#">Тканевые</a></li>
-        <li><a href="#">Звезды</a></li>
-        <li><a href="#">Бесшовные</a></li>
-    </ul>
-    </nav>
-    <slider>
-        <ul>
-            <li class="text">такой слайдер должен быьт с описанием потолков</li>
-            <li><img src="picture/sle.png" height="307" width="946"/></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </slider>
-    <div>
-        <h2 class="text"> О нас </h2>
-        <p>Не просто картинка а каждый столбец с разной анимацией</p>
-        <span class="text"> <img src="picture/nas.png" height="472" width="928"/></span>
+
+    <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <span id="item-4"></span>
+        <span id="item-5"></span>
+        <div class="carousel-item item-1">
+            <h2>световые линии</h2>
+            <a class="arrow arrow-prev" href="#item-10"></a>
+            <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
+
+        <div class="carousel-item item-2">
+            <h2>Парящий потолок</h2>
+            <a class="arrow arrow-prev" href="#item-1"></a>
+            <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
+
+        <div class="carousel-item item-3">
+            <h2>Многоуровневые</h2>
+            <a class="arrow arrow-prev" href="#item-2"></a>
+            <a class="arrow arrow-next" href="#item-4"></a>
+        </div>
+
+        <div class="carousel-item item-4">
+            <h2>Перфорированые</h2>
+            <a class="arrow arrow-prev" href="#item-3"></a>
+             <a class="arrow arrow-next" href="#item-5"></a>
+        </div>
+
+        <div class="carousel-item item-5">
+            <h2>Комбинированны</h2>
+            <a class="arrow arrow-prev" href="#item-4"></a>
+            <a class="arrow arrow-next" href="#item-1"></a>
+         </div>
     </div>
     <div>
-
+        <h2 class="text"> О нас </h2>
+        <p class="opicanie">Не просто картинка а каждый столбец с разной анимацией</p>
+        <span class="text"> <img src="picture/nas.png" height="472" width="928"/></span>
     </div>
 </div>
 </body>
