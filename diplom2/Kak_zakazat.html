@@ -5,7 +5,7 @@
     <title>Меню с боку</title>
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
 <header>
@@ -21,5 +21,24 @@
             <li><a href="#"><i class="fa fa-question"></i>Вопрос Ответ</a></li>
         </ul>
     </nav>
+</header>
+
+<div class="conteiner">
+    <div class="form-zakaz">
+        <form id="application" action=" application.php" method="POST" name=" application ">
+            <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+            <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+            <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+            <button class="applicationButton" type="submit" form="application">Заказать Звонок </button>
+        </form>
+    </div>
+    <div class="text-opicanie">
+        <h1>Простые шаги к натяжному потолку</h1>
+        <h3> Вы запланировали ремонт и хотите сделать натяжные потолки,но не знаете с чего начать?
+
+        Если да,то читайте ниже.</h3>
+        <h3>Натяжной потолок-идеальный вариант для отделки потолков. Решение практичное, простое в уходе, стильное в дизайне и долго служит. Это делает их всё более популярными и востребованными.Итак,как заказать натяжной потолок?</h3>
+    </div>
+</div>
 </body>
 </html>
